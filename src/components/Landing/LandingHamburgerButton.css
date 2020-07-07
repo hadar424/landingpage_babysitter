@@ -1,0 +1,21 @@
+.landing_hamburger_btn {
+  width: fit-content;
+  position: relative;
+  background-color: white;
+  border: none;
+  padding: 0;
+  margin: 8px;
+  cursor: pointer;
+  z-index: 10;
+  display: flex;
+  float: left;
+}
+
+.landing_menu_icon {
+  position: relative;
+  color: #bb6bd9;
+}
+
+.landing_hamburger_btn:focus {
+  outline: none;
+}
