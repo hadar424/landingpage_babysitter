@@ -1,6 +1,5 @@
 import "./LandingSideDrawer.css";
 import React, { Component } from "react";
-import { connect } from "react-redux";
 import ClearOutlinedIcon from "@material-ui/icons/ClearOutlined";
 
 class SideDrawer extends Component {
@@ -44,10 +43,5 @@ class SideDrawer extends Component {
     );
   }
 }
-const mapStateToProps = (state) => {
-  return {
-    currUser: state.currentUser,
-  };
-};
 
-export default connect(mapStateToProps)(SideDrawer);
+export default SideDrawer;
