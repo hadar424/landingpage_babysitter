@@ -169,4 +169,6 @@
   color: #ffffff;
   background: #bb6bd9;
   z-index: 140;
+  appearance: button;
+  text-decoration: none;
 }

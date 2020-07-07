@@ -184,7 +184,12 @@ class LandingPage extends React.Component {
             </Row>
           </Container>
         </div>
-        <button className="button2">להתחברות/הרשמה הורידו כעת</button>
+        <a
+          href="https://babysitterkoda-1a3df.firebaseapp.com/"
+          className="button2"
+        >
+          להתחברות/הרשמה הורידו כעת
+        </a>
       </div>
     );
   }
