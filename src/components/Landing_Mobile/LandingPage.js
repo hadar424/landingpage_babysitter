@@ -4,13 +4,14 @@ import LandingSideDrawer from "./LandingSideDrawer";
 import LandingBackDrop from "./LandingBackDrop";
 import { Container, Row, Col } from "react-grid-system";
 import "./LandingPage.css";
-import iphone from "../images/iphone.png";
-import people from "../images/people.png";
+import phone from "../images/phone.svg";
+import people from "../images/people_background.svg";
 import FacebookIcon from "../images/menu/facebook.svg";
-import WhatsappIcon from "../images/menu/whatsapp.svg";
-import EmailOutlinedIcon from "@material-ui/icons/EmailOutlined";
-import PhoneInTalkIcon from "@material-ui/icons/PhoneInTalk";
+import WhatsappIcon from "../images/whatsapp-icon.svg";
+import EmailOutlinedIcon from "../images/mail-icon.svg";
+import PhoneInTalkIcon from "../images/phone-icon.svg";
 import ReactPlayer from "react-player";
+import contact_background from "../images/contact-background.svg";
 
 class LandingPage extends React.Component {
   constructor(props) {
@@ -77,16 +78,17 @@ class LandingPage extends React.Component {
           {landingBackDrop}
         </div>
         <div className="landing_background_style1">
-          <p className="title" id="top">
+          <p className="main_title" id="top">
             בייביסיטר <br></br>מיוחד במינו
           </p>
           <hr className="line_divider" />
-          <p className="p1">
-            בייביסיטר מיוחד במינו בשיתוף 'עלה בשבילכם' מציע חיבור בין הורים
-            לילדים מיוחדים לבייביסיטרים פוטנציאליים מתחום החינוך המיוחד.
+          <p className="p">
+            בייביסיטר מיוחד במינו בשיתוף<br></br> 'עלה בשבילכם' מציע חיבור בין
+            הורים<br></br> לילדים מיוחדים לבייביסיטרים<br></br> פוטנציאליים
+            מתחום החינוך המיוחד.
           </p>
+          <img src={phone} className="iphone_logo_style" />
         </div>
-        <img src={iphone} className="iphone_logo_style" />
         <div className="landing_background_style2">
           <p className="title" id="on_the_project">
             אז,
@@ -116,7 +118,7 @@ class LandingPage extends React.Component {
             ובאותה נשימה גם להרוויח כסף ולתרום מהשעות הפנויות שלהם, על מנת
             שההורים יוכלו לקחת מעט זמן לעניינם.
           </p>
-          <div>
+          <div className="video_style">
             <ReactPlayer
               url="https://youtu.be/xcYeasNGOj4"
               width="100%"
@@ -129,7 +131,7 @@ class LandingPage extends React.Component {
           </p>
           <p className="p2">
             "עלה בשבילכם" הנו מרכז ייחודי מבית רשת 'עלה' בישראל ובשיתוף משרד
-            הרווחה, המספק שירותי מידע, תמיכה ןליווי ללא תשלום עבור משפחות לילדים
+            הרווחה, המספק שירותי מידע, תמיכה וליווי ללא תשלום עבור משפחות לילדים
             עם מוגבלויות מורכבות. במרכז פועלים מגוון שירותים - קו חם לייעוץ
             והכוונה, הורים מלווים הורים וכן קבוצות תמיכה המונחות על ידי אנשי
             מקצוע.
@@ -141,9 +143,9 @@ class LandingPage extends React.Component {
             השאלה וחוסר האונים שהינם - לעתים קרובות - חלק בלתי נפרד מהחיים
             כהורים לילדים עם מוגבלויות, בכל שלב וגיל.
           </p>
+          <img src={people} className="people_logo_style" />
         </div>
-        <img src={people} className="people_logo_style" />
-        <div className="landing_background_style2">
+        <div className="landing_background_style3">
           <p className="title" id="contact">
             יש לכם
             <br></br> שאלה?
@@ -158,31 +160,32 @@ class LandingPage extends React.Component {
         </div>
         <div className="contact">
           <Container className="contact_table">
-            <Row style={{ marginBottom: 8 }}>
+            <Row style={{ marginBottom: 10 }}>
               <Col width="20%">
-                <EmailOutlinedIcon />
+                <img src={EmailOutlinedIcon} width="35" height="35" />
               </Col>
               <Col width="80%">bbmeychad@gmail.com</Col>
             </Row>
-            <Row style={{ marginBottom: 8 }}>
+            <Row style={{ marginBottom: 10 }}>
               <Col width="20%">
                 <img src={WhatsappIcon} width="35" height="35" />
               </Col>
               <Col width="80%">055-6876741</Col>
             </Row>
-            <Row style={{ marginBottom: 8 }}>
+            <Row style={{ marginBottom: 10 }}>
               <Col width="20%">
                 <img src={FacebookIcon} width="35" height="35" />
               </Col>
               <Col width="80%">"בייביסיטר מיוחד במינו"</Col>
             </Row>
-            <Row style={{ marginBottom: 8 }}>
+            <Row style={{ marginBottom: 10 }}>
               <Col width="20%">
-                <PhoneInTalkIcon />
+                <img src={PhoneInTalkIcon} width="35" height="35" />
               </Col>
               <Col width="80%"> 'עלה בשבילכם' 1-800-201-077</Col>
             </Row>
           </Container>
+          <img src={contact_background} className="contact_logo_style" />
         </div>
         <a
           href="https://babysitterkoda-1a3df.firebaseapp.com/"

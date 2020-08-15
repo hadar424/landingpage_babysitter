@@ -11,6 +11,7 @@
     "firebase": "^7.15.5",
     "material-ui": "^0.20.2",
     "react": "^16.13.1",
+    "react-device-detect": "^1.13.1",
     "react-dom": "^16.13.1",
     "react-grid-system": "^7.0.3",
     "react-player": "^2.5.0",

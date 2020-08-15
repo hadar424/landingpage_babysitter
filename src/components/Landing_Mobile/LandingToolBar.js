@@ -8,10 +8,6 @@ const LandingToolbar = (props) => {
   return (
     <div dir="rtl" className="landing_toolbar">
       <nav className="landing_toolbar_nav">
-        <div className="landing_top_logo_style">
-          <img src={alehLogo} className="landing_aleh_logo_style" />
-        </div>
-        <div className="landing_spacer" />
         <div className="landing_bottom_logo_style">
           <img src={babysitterLogo} className="landing_babysitter_logo_style" />
         </div>

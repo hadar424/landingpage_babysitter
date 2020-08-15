@@ -1,0 +1,107 @@
+.landing_toolbarD {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  position: relative;
+  background: linear-gradient(
+    299.63deg,
+    rgba(209, 195, 230, 0.5) -2.6%,
+    rgba(220, 227, 230, 0.5) 99.75%
+  );
+}
+
+.landing_toolbar_navD {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.landing_toolbar_logoD {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.landing_toolbar_logoD img {
+  height: 11.5vh;
+  font-weight: bold;
+  top: 0;
+}
+
+.landing_spacerD {
+  flex: 1;
+}
+
+.landing_spacer1D {
+  flex: 0.1;
+}
+
+.landing_aleh_logo_styleD {
+  position: relative;
+  width: 90px;
+  height: 100px;
+  top: 0px;
+}
+
+.landing_babysitter_logo_styleD {
+  position: relative;
+  width: 100px;
+  height: 110px;
+}
+
+.landing_top_logo_styleD {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.landing_bottom_logo_styleD {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.tool_bar_listD {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: top;
+  font-style: normal;
+  font-family: "Open Sans Hebrew";
+  font-weight: normal;
+  position: relative;
+  font-size: 24px;
+  line-height: 35px;
+  align-items: center;
+  text-align: right;
+  color: #000000;
+}
+
+.list_itemD {
+  padding: 1rem;
+  margin: 10px 10px;
+}
+
+.register_buttonD {
+  width: 193px;
+  height: 40px;
+  position: relative;
+  border-radius: 4px;
+  border: none;
+  font-family: Open Sans Hebrew;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  color: #ffffff;
+  background: #bb6bd9;
+  appearance: button;
+  text-decoration: none;
+}
