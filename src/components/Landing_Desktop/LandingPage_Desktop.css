@@ -107,7 +107,7 @@
   z-index: 100;
   top: -95%;
   width: 398px;
-  left: 30%;
+  left: 28%;
 }
 .title_pD {
   font-family: sans-serif;
@@ -216,7 +216,8 @@
   line-height: 23px;
   align-items: center;
   text-align: center;
-  display: inline-block;
+  padding-right: 2.5%;
+  display: flex;
   color: #ffffff;
   background: #bb6bd9;
   appearance: button;
@@ -238,7 +239,7 @@
   line-height: 23px;
   align-items: center;
   text-align: center;
-  padding-right: 70px;
+  padding-right: 2.5%;
   display: flex;
   color: #ffffff;
   background: #bb6bd9;
