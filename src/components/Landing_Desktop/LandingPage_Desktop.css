@@ -62,9 +62,9 @@
   right: 6.94%;
   bottom: 87.14%;
   position: relative;
-  font-family: Open Sans Hebrew;
+  font-family: sans-serif;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 120px;
   line-height: 100%;
   /* or 60px */
@@ -83,9 +83,9 @@
   left: 57.92%;
   right: 6.94%;
   position: relative;
-  font-family: Open Sans Hebrew;
+  font-family: sans-serif;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 120px;
   line-height: 100%;
   /* or 60px */
@@ -110,7 +110,7 @@
   left: 30%;
 }
 .title_pD {
-  font-family: Open Sans Hebrew;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -133,7 +133,7 @@
 .p1D {
   width: 612px;
   right: 6.94%;
-  font-family: Open Sans Hebrew;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -189,7 +189,7 @@
 
 .p2D {
   position: relative;
-  font-family: Open Sans Hebrew;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -209,7 +209,7 @@
   position: relative;
   border-radius: 4px;
   border: none;
-  font-family: Open Sans Hebrew;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -231,7 +231,7 @@
   position: relative;
   border-radius: 4px;
   border: none;
-  font-family: Open Sans Hebrew;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
