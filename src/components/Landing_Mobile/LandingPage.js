@@ -83,7 +83,7 @@ class LandingPage extends React.Component {
           </p>
           <hr className="line_divider" />
           <p className="p">
-            בייביסיטר מיוחד במינו בשיתוף<br></br> 'עלה בשבילכם' מציע חיבור בין
+            בייביסיטר מיוחד במינו בשיתוף<br></br> 'עדי בשבילכם' מציע חיבור בין
             הורים<br></br> לילדים מיוחדים לבייביסיטרים<br></br> פוטנציאליים
             מתחום החינוך המיוחד.
           </p>
@@ -126,11 +126,11 @@ class LandingPage extends React.Component {
             />
           </div>
           <p className="title" id="aleh_for_you">
-            עלה
+            עדי
             <br></br> בשבילכם
           </p>
           <p className="p2">
-            "עלה בשבילכם" הנו מרכז ייחודי מבית רשת 'עלה' בישראל ובשיתוף משרד
+            "עדי בשבילכם" הנו מרכז ייחודי מבית רשת 'עדי' בישראל ובשיתוף משרד
             הרווחה, המספק שירותי מידע, תמיכה וליווי ללא תשלום עבור משפחות לילדים
             עם מוגבלויות מורכבות. במרכז פועלים מגוון שירותים - קו חם לייעוץ
             והכוונה, הורים מלווים הורים וכן קבוצות תמיכה המונחות על ידי אנשי
@@ -182,7 +182,7 @@ class LandingPage extends React.Component {
               <Col width="20%">
                 <img src={PhoneInTalkIcon} width="35" height="35" />
               </Col>
-              <Col width="80%"> 'עלה בשבילכם' 1-800-201-077</Col>
+              <Col width="80%"> 'עדי בשבילכם' 1-800-201-077</Col>
             </Row>
           </Container>
           <img src={contact_background} className="contact_logo_style" />

@@ -2,7 +2,7 @@ import "./LandingSideDrawer.css";
 import React, { Component } from "react";
 import ClearOutlinedIcon from "@material-ui/icons/ClearOutlined";
 import alehLogo from "../images/aleh-logo.png";
-import babysitterLogo from "../images/babysitter-logo.svg";
+import babysitterLogo from "../images/babysitter-logo2.svg";
 
 class SideDrawer extends Component {
   constructor(props) {
@@ -41,7 +41,7 @@ class SideDrawer extends Component {
             אודות הפרוייקט
           </li>
           <li className="list_item" onClick={this.props.Scroll_function2}>
-            עלה בשבילכם
+            עדי בשבילכם
           </li>
           <li className="list_item" onClick={this.props.Scroll_function3}>
             צרו קשר

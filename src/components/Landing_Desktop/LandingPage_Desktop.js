@@ -67,7 +67,7 @@ class LandingPageD extends React.Component {
           </p>
           <hr className="line_dividerD" />
           <p className="title_pD">
-            בייביסיטר מיוחד במינו בשיתוף 'עלה בשבילכם' מציע חיבור <br></br> בין
+            בייביסיטר מיוחד במינו בשיתוף 'עדי בשבילכם' מציע חיבור <br></br> בין
             הורים לילדים מיוחדים לבייביסיטרים פוטנציאליים מתחום <br></br> החינוך
             המיוחד.
           </p>
@@ -114,11 +114,11 @@ class LandingPageD extends React.Component {
         </div>
         <div className="landing_background_style2D">
           <p className="title1D" id="aleh_for_youD">
-            עלה
+            עדי
             <br></br> בשבילכם
           </p>
           <p className="p1D">
-            "עלה בשבילכם" הנו מרכז ייחודי מבית רשת 'עלה' בישראל ובשיתוף משרד
+            "עדי בשבילכם" הנו מרכז ייחודי מבית רשת 'עדי' בישראל ובשיתוף משרד
             <br></br>
             הרווחה, המספק שירותי מידע, תמיכה וליווי ללא תשלום עבור משפחות לילדים
             <br></br>
@@ -173,7 +173,7 @@ class LandingPageD extends React.Component {
                 <Col width="20%">
                   <img src={PhoneInTalkIcon} width="35" height="35" />
                 </Col>
-                <Col width="80%"> 'עלה בשבילכם' 1-800-201-077</Col>
+                <Col width="80%"> 'עדי בשבילכם' 1-800-201-077</Col>
               </Row>
               <Row style={{ marginBottom: 10 }}>
                 <Col width="20%">

@@ -2,7 +2,7 @@ import React from "react";
 import "./LandingToolBar.css";
 import LandingHamburgerButton from "./LandingHamburgerButton";
 import alehLogo from "../images/aleh-logo.png";
-import babysitterLogo from "../images/babysitter-logo.svg";
+import babysitterLogo from "../images/babysitter-logo2.svg";
 
 const LandingToolbar = (props) => {
   return (

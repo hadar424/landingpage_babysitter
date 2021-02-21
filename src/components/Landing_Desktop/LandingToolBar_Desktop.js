@@ -1,7 +1,8 @@
 import React from "react";
 import "./LandingToolBar_Desktop.css";
-import alehLogo from "../images/aleh-logo.png";
-import babysitterLogo from "../images/babysitter-logo.svg";
+//import alehLogo from "../images/aleh-logo.png";
+import alehLogo from "../images/Adi.jpeg";
+import babysitterLogo from "../images/babysitter-logo2.svg";
 
 const LandingToolbarD = (props) => {
   return (
