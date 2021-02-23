@@ -1,7 +1,7 @@
 import React from "react";
 import "./LandingToolBar_Desktop.css";
 //import alehLogo from "../images/aleh-logo.png";
-import alehLogo from "../images/Adi.jpeg";
+import alehLogo from "../images/Adi.png";
 import babysitterLogo from "../images/babysitter-logo2.svg";
 
 const LandingToolbarD = (props) => {
@@ -21,7 +21,7 @@ const LandingToolbarD = (props) => {
             אודות הפרוייקט
           </li>
           <li className="list_itemD" onClick={props.Scroll_function2}>
-            עלה בשבילכם
+            עדי בשבילכם
           </li>
           <li className="list_itemD" onClick={props.Scroll_function3}>
             צרו קשר
